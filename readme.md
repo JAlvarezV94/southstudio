@@ -1,9 +1,9 @@
-#Dependencies:
+# Dependencies:
 
 	- To refresh all the dependencies run:
 		- dotnet restore
 
-#Add user secrets:
+# Add user secrets:
 
 	- dotnet user-secret init
 	- dotnet user-secret set "Connection:Password" "yourpassword"
